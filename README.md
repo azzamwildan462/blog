@@ -1,1 +1,1 @@
-Sekedar share pengalaman Xd
+Sekedar share pengalaman.. Xd
