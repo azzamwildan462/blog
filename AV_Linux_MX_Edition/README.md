@@ -25,3 +25,17 @@ Untuk penggunaan AV Linux MX Edition saya sarankan untuk dual-boot karena jika h
 13. Setelah selesai maka sistem akan meminta untuk Restart komputer, Silahkan Restart saja lalu cabut FD nya.
 14. Seharusnya akan masuk ke GRUB, disini anda bisa milih untuk pake Systemd atau free-Systemd terserah.
 15. Jika masih ada error, kenali pesan error nya lalu cari solusinya. Kebanyakan adalah error di Boot sequence nya, perhatikan dan masuk ke settingan BIOS anda untuk menyelesaikannya.
+
+## Penggunaan
+
+Setelah persiapan dan instalasi telah sukses, lanjut ke tahap penggunaan. Kalo saya biasanya customize tampilan dulu, bisa dicari bagaimana cara kustomisasi XFCE dan Openbox. Sebenarnya terserah mau di-kostum atau ndak wkwkwkwkwkwk..  
+Untuk mulai menggunakan dengan integrasi Hardware seperti gitar atau keyboard atau alat apapun, pertama tama kita siapkan dan mulai melakukan routing internal pada komputer.
+
+#### Apa yang akan dipelajari?
+
+1. Belajar tentang [JACK](JACK1.md), pulseaudio, dan ALSA.
+2. Pelajari command linux bash seperti arecord, aplay, pactl, pacmd, jack_control, modprobe, htop, lsusb.
+3. Belajar [Ardour](Ardour1.md)
+4. Mulai mencoba [MIDI](MIDI1.md) keyboard
+5. Mencoba integrasi dengan Gitar atau alat musik lainnya
+6. Membuat proyek Musik
