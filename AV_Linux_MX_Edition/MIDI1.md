@@ -19,7 +19,7 @@
 4. Jalankan [Ardour dengan JACK](Ardour_jack.md)  
    ![config-ardour](image/ardcfg1zoom.png)
 5. Buat satu MIDI Track
-6. Kembali ke QjackCtl lalu masuk ke 'graph' lalu sambungkan MIDI Capture pada System Capture dengan MIDI Track yang telah kita buat tadi (Warnanya merah) (Cara 1)  
+6. Kembali ke QjackCtl lalu masuk ke 'graph' lalu sambungkan MIDI Capture dengan MIDI Track yang telah kita buat tadi (Warnanya merah) (Cara 1)  
    ![route](image/midi2.png)
 7. Klik kiri pada MIDI Track lalu setelah ter-klik, silahkan klik kanan lalu pilih bagian input, lalu sambungkan dengan cara klik kiri (Ada lingkaran warna hijau -> tersambung) (Cara 2)
 8. Klik tulisan 'window' (Ada di atas), lalu pilih ke MIDI Connection, lalu sambungkan dari sana (Cara 3)
