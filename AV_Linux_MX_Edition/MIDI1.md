@@ -14,7 +14,7 @@
 1. Siapkan Alat dan Bahan
 2. Sambungkan Keyboard dengan Komputer menggunakan (port USB ke Komputer) pastikan sudah terhubung, untuk mengetahuinya silahkan gunakan command `lsusb`  
    ![lsusb](image/midi1.png)
-3. Jalankan [server JACK dengan pulseaudio](jack_pulse.md)  
+3. Jalankan [server JACK dengan pulseaudio](Jack_pulse.md)  
    ![pulse-route](image/jwp1.png)
 4. Jalankan [Ardour dengan JACK](Ardour_jack.md)  
    ![config-ardour](image/ardcfg1zoom.png)
