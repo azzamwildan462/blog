@@ -37,3 +37,5 @@ ifconfig | grep inet
 6. Default routing dari Apache ada di `/var/www/html`. Anda bisa menggantinya kemanapun anda mau. [Mengganti default route Apache2](Apache_route1.md)
 
 ## Debugging
+
+- Kebanyakan error saat port 80 atau 443 (https) sedang dipakai, coba dicek `sudo netstat -tulpn | grep :80 `. Jika tidak ada, berarti bukan karena port 80 atau port 443.
