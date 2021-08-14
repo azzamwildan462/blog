@@ -16,7 +16,7 @@ Untuk penggunaan AV Linux MX Edition saya sarankan untuk dual-boot karena jika h
 4. Backup data (Jika takut kehilangan)
 5. Siapkan Flashdisk 8 Gb dan download file iso AV Linux [disini](http://www.bandshed.net/avlinux/)
 6. Buat bootable FD, bisa menggunakan [rufus](https://rufus.ie/en/)
-7. Colokkan FD ke laptop lalu restart laptop (Pastikan untuk mengatur BIOS agar booting melalui FD)
+7. Sambungkan FD ke laptop lalu restart laptop (Pastikan untuk mengatur BIOS agar booting melalui FD)
 8. Seharusnya anda akan masuk ke OS AV Linux
 9. Klik kanan pada desktop lalu cari "Install AVR-MXE to HDD" lalu klik saja
 10. Window Installer akan muncul dan ikuti saja stepnya
