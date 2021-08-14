@@ -69,3 +69,11 @@ sudo service apache2 restart
 
 - Pada step nomer 3, tujuannya yaitu untuk menambahkan pilihan untuk dijadikan DocumentRoot (Root pada <alamat_ip>/)
 - Step 5 yaitu untuk mengganti default dari DocumentRoot. Apa yang tertulis disini seharusnya sudah ditambahkan pada step 3
+
+## Tambahan
+
+Saya telah membuat sebuah shell script bernama Change_root_apache2.sh yang terletak pada direktori Shell script. Silahkan gunakan flag '-h' untuk contoh penggunaannya.
+
+```
+./Change_root_apache2.sh -h
+```
