@@ -39,3 +39,11 @@ ifconfig | grep inet
 ## Debugging
 
 - Kebanyakan error saat port 80 atau 443 (https) sedang dipakai, coba dicek `sudo netstat -tulpn | grep :80 `. Jika tidak ada, berarti bukan karena port 80 atau port 443.
+
+## Instal menggunakan shell script
+
+Masuk ke direktori 'Shell script' lalu
+
+```
+./Install_apache.sh
+```
