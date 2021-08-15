@@ -1,3 +1,3 @@
 # Server menggunakan Linux
 
-Saya memakai Ubuntu Server
+Saya memakai distro Ubuntu Server dan [Apache2](apache1.md)
