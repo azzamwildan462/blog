@@ -9,6 +9,6 @@ Penggunaannya pun cukup mudah. QjackCtl banyak digunakan untuk melakukan Routing
 ![QjackCtl routing pulseaudio dan Calf plugin](image/qjack-route2.png)
 
 1. [QjackCtl konfigurasi awal](QjackCtl1.md)
-1. [QjackCtl dengan pulseaudio](jack_pulse.md)
-1. QjackCtl routing antar aplikasi
-1. QjackCtl kustom input dan output
+2. [QjackCtl dengan pulseaudio](jack_pulse.md)
+3. QjackCtl routing antar aplikasi
+4. QjackCtl kustom input dan output

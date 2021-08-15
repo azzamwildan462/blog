@@ -24,7 +24,7 @@ killall pulseaudio
 ```
 
 2. Buka [server JACK](QjackCtl1.md)
-3. Tambahkan pulseaudio sebagi client dari JACK
+3. Tambahkan pulseaudio sebagi client dari JACK (Jika pulseaduio masih belum tampil di QjackCtl-graph)
 
 ```
 pactl load-module module-jack-sink

@@ -35,7 +35,8 @@ Untuk mulai menggunakan dengan integrasi Hardware seperti gitar atau keyboard at
 
 1. Belajar tentang [JACK](JACK1.md), pulseaudio, dan ALSA.
 2. Pelajari command linux bash seperti arecord, aplay, pactl, pacmd, jack_control, modprobe, htop, lsusb.
-3. Belajar [Ardour](Ardour1.md)
-4. Mulai mencoba [MIDI](MIDI1.md) keyboard
-5. Mencoba integrasi dengan Gitar atau alat musik lainnya
-6. Membuat proyek Musik
+3. [Menikmati musik dengan efek tambahan untuk audio](Efek_jack.md)
+4. Belajar [Ardour](Ardour1.md)
+5. Mulai mencoba [MIDI](MIDI1.md) keyboard
+6. Mencoba integrasi dengan Gitar atau alat musik lainnya
+7. Membuat proyek Musik

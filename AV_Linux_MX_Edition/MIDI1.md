@@ -27,3 +27,9 @@
 10. Untuk mengatur suara, silahkan pergi ke mixer (Alt+m) lalu double klik pada plugin General MIDI Keyboard lalu tinggal ganti suara pada C1 atau Anda juga bisa memakai suara dari keyboard anda  
     ![plugin](image/midi3.png)
 11. Selamat menikmati... Salam pemusik dari Jember
+
+## Debugging
+
+- Tidak keluar suara? -> cek koneksi dari mulai sumber suara yaitu MIDI Controller
+
+`*nb MIDI Controller -> Ardour MIDI track in -> Ardour Master in -> System playback`
