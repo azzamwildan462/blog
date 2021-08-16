@@ -33,7 +33,7 @@ pactl load-module module-jack-source
 
 4. Hubungkan melalui QjackCtl-graph. Contoh:  
    ![routing](image/jwp1.png)
-5. Seharusnya sudah sukses. Untuk memastikannya, coba play lagu dari Youtube, atau apapun itu. Youtube -> Pulseaudio -> Pulseaudio JACK Sink -> System playback
+5. Seharusnya sudah sukses. Untuk memastikannya, coba play lagu dari Youtube, atau apapun itu. **Youtube -> Pulseaudio -> Pulseaudio JACK Sink -> System playback**
 
 ## Sedikit penjelasan
 
@@ -45,7 +45,8 @@ pactl load-module module-jack-source
 
 ## Debugging
 
-- Sound masuk pulseaudio tapi tidak keluar dari pulseaudio JACK sink? -> Konfigurasi Pulseaudio. CLI -> `pactl set-default-sink jack_out`. GUI -> Buka volume control -> pada bagian playback, ganti playback ke pulseaudio JACK Sink.
+- Sound masuk pulseaudio tapi tidak keluar dari pulseaudio JACK sink? -> Konfigurasi Pulseaudio. CLI -> `pactl set-default-sink jack_out`. GUI -> Buka volume control -> pada bagian playback, ganti playback ke pulseaudio JACK Sink.  
+  ![](image/pulseconf1.png)
 - Tidak ada module JACK pada pulseaudio? -> `sudo apt install pulseaudio-module-jack`
 - Sudah ter-instal tapi masih belum ada? -> lakukan step 3 lalu cek dengan `pactl list modules | grep jack` -> seharusnya akan keluar output, jika belum keluar berarti pulseaudio-module-jack masih belum terinstal.
 - Sound masuk ke System playback namun tidak keluar suara? -> Konfigurasi soundcard untuk input output pada [JACK server](QjackCtl1.md).

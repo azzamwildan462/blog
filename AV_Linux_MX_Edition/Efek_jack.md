@@ -16,7 +16,15 @@
    ![](image/qjack-route3.png)
 5. Anda bisa konfigurasi sesuka hati. saran saya untuk masalah routing, bisa dilakukan pada QjackCtl-graph agar lebih mudah
 
+## Contoh konfigurasi Efek
+
+- 8-band Equalizer  
+  ![](image/eq2.png)
+- Reverb
+  ![](image/reverb1.png)
+
 ## Debugging
 
-- Suara tidak masuk keluar dari Pulseaudio JACK sink? -> buka Pavucontrol (Pulseaudio volume control) lalu pilih pada bagian playback, set playback ke pulseaudio JACK sink. atau bisa di-set untuk defaultnya `pactl set-default-sink jack_out`
+- Suara tidak keluar dari Pulseaudio JACK sink? -> buka Pavucontrol (Pulseaudio volume control) lalu pilih pada bagian playback, set playback ke pulseaudio JACK sink. atau bisa di-set untuk defaultnya `pactl set-default-sink jack_out`  
+  ![](image/pulseconf1.png)
 - Routing sudah sampai system playback namun suara tidak keluar? -> periksa lagi input dan output [JACK server](QjackCtl1.md)

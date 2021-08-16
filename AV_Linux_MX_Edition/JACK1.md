@@ -10,5 +10,5 @@ Penggunaannya pun cukup mudah. QjackCtl banyak digunakan untuk melakukan Routing
 
 1. [QjackCtl konfigurasi awal](QjackCtl1.md)
 2. [QjackCtl dengan pulseaudio](Jack_pulse.md)
-3. QjackCtl routing antar aplikasi
-4. QjackCtl kustom input dan output
+3. [QjackCtl routing antar aplikasi](Route_multi_app.md)
+4. [QjackCtl Tuning latency](Tuning_latency.md)

@@ -1,5 +1,9 @@
 # Pemrograman
 
+## Hal penting yang harus dilakukan
+
+Pakai VSCode :)
+
 ## QnA
 
 - Apa sulit belajar pemrograman? -> nggak, asal bisa berlogika dengan baik

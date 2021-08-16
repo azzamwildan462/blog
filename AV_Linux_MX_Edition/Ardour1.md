@@ -11,7 +11,7 @@ Sebenarnya saya juga masih baru belajar Ardour hehe.. untuk lebih lengkapnya sil
 
 1. [Menjalankan Ardour sebagai client JACK](Ardour_jack.md)
 2. Mengenal Track, Bus, Audio, MIDI, Mono, Stereo.
-3. Input suara track dari luar Aplikasi Ardour
+3. [Input suara track dari luar Aplikasi Ardour](Route_multi_app.md)
 4. Mencoba [MIDI](MIDI1.md)
 5. Mencoba Input Gitar atau alat musik lainnya
 6. Membuat proyek sederhana dengan Ardour
