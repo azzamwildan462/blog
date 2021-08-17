@@ -14,7 +14,7 @@
    ![](image/jackeffect.png)
 4. Sehingga Routing menjadi  
    ![](image/qjack-route3.png)
-5. Anda bisa konfigurasi sesuka hati. saran saya untuk masalah routing, bisa dilakukan pada QjackCtl-graph agar lebih mudah
+5. Anda bisa [konfigurasi](Efek_jack2.md) sesuka hati. saran saya untuk masalah routing, bisa dilakukan pada QjackCtl-graph agar lebih mudah
 
 ## Contoh konfigurasi Efek
 

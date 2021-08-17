@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="eq8" instance-name="Equalizer 8 Band" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="eq8" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="0.568015" />
+  <param name="meter_inL" value="0.0425852" />
+  <param name="meter_inR" value="0.0843435" />
+  <param name="meter_outL" value="0.0141213" />
+  <param name="meter_outR" value="0.023915" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="hp_active" value="1" />
+  <param name="hp_freq" value="20.2054" />
+  <param name="hp_mode" value="1" />
+  <param name="hp_q" value="0.610126" />
+  <param name="lp_active" value="1" />
+  <param name="lp_freq" value="17709.8" />
+  <param name="lp_mode" value="1" />
+  <param name="lp_q" value="0.610126" />
+  <param name="ls_active" value="4" />
+  <param name="ls_level" value="2.47176" />
+  <param name="ls_freq" value="97.7294" />
+  <param name="ls_q" value="1.2062" />
+  <param name="hs_active" value="1" />
+  <param name="hs_level" value="3.41655" />
+  <param name="hs_freq" value="2814.2" />
+  <param name="hs_q" value="1.14135" />
+  <param name="p1_active" value="5" />
+  <param name="p1_level" value="0.549427" />
+  <param name="p1_freq" value="25.0518" />
+  <param name="p1_q" value="3.87259" />
+  <param name="p2_active" value="1" />
+  <param name="p2_level" value="0.507735" />
+  <param name="p2_freq" value="300.652" />
+  <param name="p2_q" value="0.258226" />
+  <param name="p3_active" value="4" />
+  <param name="p3_level" value="0.792235" />
+  <param name="p3_freq" value="1382.45" />
+  <param name="p3_q" value="0.349945" />
+  <param name="p4_active" value="5" />
+  <param name="p4_level" value="0.44838" />
+  <param name="p4_freq" value="10213.2" />
+  <param name="p4_q" value="0.237684" />
+  <param name="individuals" value="1" />
+  <param name="zoom" value="0.25" />
+  <param name="analyzer" value="1" />
+  <param name="analyzer_mode" value="1" />
+</preset>
+</plugin>
+<plugin type="reverb" instance-name="Reverb" input-index="5" output-index="5">
+<preset bank="0" program="0" plugin="reverb" name="">
+  <param name="meter_inL" value="0.00889783" />
+  <param name="meter_inR" value="0.0180344" />
+  <param name="clip_outL" value="0" />
+  <param name="decay_time" value="1.02894" />
+  <param name="hf_damp" value="5000" />
+  <param name="room_size" value="1" />
+  <param name="diffusion" value="0.5" />
+  <param name="amount" value="0.257743" />
+  <param name="dry" value="0.940826" />
+  <param name="predelay" value="0" />
+  <param name="bass_cut" value="221.371" />
+  <param name="treble_cut" value="5000" />
+  <param name="on" value="1" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_outL" value="0.0115008" />
+  <param name="meter_outR" value="0.0221021" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outR" value="0" />
+</preset>
+</plugin>
+<plugin type="multispread" instance-name="Multi Spread" input-index="7" output-index="7">
+<preset bank="0" program="0" plugin="multispread" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.00916518" />
+  <param name="meter_inR" value="0.0175722" />
+  <param name="meter_outL" value="0.00978919" />
+  <param name="meter_outR" value="0.0213825" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mono" value="0" />
+  <param name="filters" value="8" />
+  <param name="amount0" value="1.18099" />
+  <param name="amount1" value="0.693515" />
+  <param name="amount2" value="1.49071" />
+  <param name="amount3" value="0.670821" />
+  <param name="intensity" value="1" />
+</preset>
+</plugin>
+<plugin type="multibandenhancer" instance-name="Multiband Enhancer" input-index="9" output-index="9">
+<preset bank="0" program="0" plugin="multibandenhancer" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.0141213" />
+  <param name="meter_inR" value="0.023915" />
+  <param name="meter_outL" value="0.0122977" />
+  <param name="meter_outR" value="0.0207323" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="freq0" value="26.2227" />
+  <param name="freq1" value="465.385" />
+  <param name="freq2" value="6199.83" />
+  <param name="mode" value="1" />
+  <param name="base0" value="0" />
+  <param name="base1" value="-0.176" />
+  <param name="base2" value="-0.336" />
+  <param name="base3" value="0.432" />
+  <param name="drive0" value="0" />
+  <param name="drive1" value="0" />
+  <param name="drive2" value="0" />
+  <param name="drive3" value="0" />
+  <param name="blend0" value="0" />
+  <param name="blend1" value="0" />
+  <param name="blend2" value="0" />
+  <param name="blend3" value="0" />
+  <param name="solo0" value="0" />
+  <param name="solo1" value="0" />
+  <param name="solo2" value="0" />
+  <param name="solo3" value="0" />
+</preset>
+</plugin>
+</rack>

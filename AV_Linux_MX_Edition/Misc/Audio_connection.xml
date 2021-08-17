@@ -1,0 +1,65 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.6.3" name="q4">
+ <output-sockets>
+  <socket name="system 1" exclusive="off" type="jack-audio" client="system">
+   <plug>capture_1</plug>
+   <plug>capture_2</plug>
+  </socket>
+  <socket name="PulseAudio JACK Sink 1" exclusive="off" type="jack-audio" client="PulseAudio JACK Sink">
+   <plug>front-left</plug>
+   <plug>front-right</plug>
+  </socket>
+  <socket name="Calf Studio Gear 1" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Equalizer 8 Band Out #1</plug>
+   <plug>Equalizer 8 Band Out #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 2" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Multiband Enhancer Out #1</plug>
+   <plug>Multiband Enhancer Out #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 3" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Multi Spread Out #1</plug>
+   <plug>Multi Spread Out #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 4" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Reverb Out #1</plug>
+   <plug>Reverb Out #2</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket name="PulseAudio JACK Source 1" exclusive="off" type="jack-audio" client="PulseAudio JACK Source">
+   <plug>front-left</plug>
+   <plug>front-right</plug>
+  </socket>
+  <socket name="Calf Studio Gear 1" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Equalizer 8 Band In #1</plug>
+   <plug>Equalizer 8 Band In #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 2" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Multiband Enhancer In #1</plug>
+   <plug>Multiband Enhancer In #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 3" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Multi Spread In #1</plug>
+   <plug>Multi Spread In #2</plug>
+  </socket>
+  <socket name="Calf Studio Gear 4" exclusive="off" type="jack-audio" client="Calf Studio Gear">
+   <plug>Reverb In #1</plug>
+   <plug>Reverb In #2</plug>
+  </socket>
+  <socket name="system 1" exclusive="off" type="jack-audio" client="system">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable output="system 1" input="PulseAudio JACK Source 1" type="jack-audio"/>
+  <cable output="PulseAudio JACK Sink 1" input="Calf Studio Gear 1" type="jack-audio"/>
+  <cable output="Calf Studio Gear 1" input="Calf Studio Gear 2" type="jack-audio"/>
+  <cable output="Calf Studio Gear 2" input="Calf Studio Gear 3" type="jack-audio"/>
+  <cable output="Calf Studio Gear 3" input="Calf Studio Gear 4" type="jack-audio"/>
+  <cable output="Calf Studio Gear 4" input="system 1" type="jack-audio"/>
+ </cables>
+</patchbay>
+
