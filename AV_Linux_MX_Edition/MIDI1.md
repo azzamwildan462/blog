@@ -2,7 +2,7 @@
 
 ## Alat dan Bahan
 
-1. Keyboard CTK-7250 sebagai MIDI Controller (Terserah mau pake apa)
+1. Keyboard CTK-7000 sebagai MIDI Controller (Terserah mau pake apa)
 2. Kabel MIDI atau kabel Printer sebagai penguhung Keyboard dengan Komputer
 3. JACK sebagai Sound server
 4. Pulseaudio sebagai client dari JACK
