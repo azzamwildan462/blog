@@ -2,7 +2,7 @@
 
 ## Hal penting yang harus dilakukan
 
-Pakai VSCode :)
+Pakai [VSCode](Vscode1.md) :)
 
 ## QnA
 

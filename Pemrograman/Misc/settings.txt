@@ -1,0 +1,88 @@
+"editor.tokenColorCustomizations": {
+        //Warna teks
+        "numbers": "#17ff32",
+        "variables": "#0febff",
+        "functions": "#f50cab",
+        "keywords": "#c505ff",
+        "types": "#FF0000",
+        "strings": "#ed1ced",
+        "comments": "#2e69ff"
+        
+    },
+    "workbench.colorCustomizations": {
+
+    //Actifity bar
+    "activityBar.foreground": "#a3e0eb",
+    "activityBar.background": "#050101",
+    "activityBar.border": "#c61ee8",
+    "activityBarBadge.foreground": "#a81ee8",
+    "activityBar.activeFocusBorder": "#ff0000",
+    
+    //List
+    "list.activeSelectionBackground": "#0e0c0f",
+    "list.activeSelectionForeground": "#09ff00",
+    "list.hoverBackground": "#0e0c0f",
+    "list.hoverForeground": "#09ff00",
+    "list.focusBackground": "#0e0c0f",
+    "list.focusForeground": "#09ff00",
+    "list.inactiveSelectionBackground": "#0e0c0f",
+    "list.inactiveSelectionForeground": "#09ff00",
+
+    //Editor
+    "editorLineNumber.activeForeground": "#00bcd9",
+    "editorLineNumber.foreground": "#7b00d9",
+    "editor.foreground": "#e8fffe",
+    "editor.background": "#050101",
+    "editor.selectionBackground": "#36352e",
+    "editor.selectionForeground": "#ffdd00",
+    "editorSuggestWidget.background": "#0a0a0a",
+    "editorSuggestWidget.foreground": "#ed1ced",
+    "editorSuggestWidget.selectedBackground": "#141414",
+    "editorSuggestWidget.selectedForeground": "#1bd7f8",
+    "editorSuggestWidget.highlightForeground": "#0febff",
+    "editorSuggestWidget.focusHighlightForeground": "#f50cab",
+    "editorSuggestWidget.selectedIconForeground": "#0febff",
+    "editorHoverWidget.foreground": "#f9d9ff",
+    "editorHint.foreground": "#ffffff",
+    "editorInfo.foreground": "#e8feff",
+    "editorBracketMatch.border": "#00bcd9",
+    
+
+    //Sidebar
+    "sideBar.background": "#0a050a",
+    "sideBar.foreground": "#1bd7f8",
+    "sideBar.border": "#c61ee8",
+    
+    //Symbolicon
+    "symbolIcon.functionForeground": "#f50cab",
+    "symbolIcon.variableForeground": "#0febff",
+    "symbolIcon.classForeground": "#0d00ff",
+    "symbolIcon.colorForeground": "#ff0000",
+    "symbolIcon.fileForeground": "#1bd7f8",
+    "symbolIcon.objectForeground": "#0febff",
+    "symbolIcon.folderForeground": "#7b00d9",
+    "editorSuggestWidget.border": "#1bd7f8",
+    
+    //Tab
+    "tab.inactiveForeground": "#1cffd9",
+    "tab.inactiveBackground": "#0d070d",
+    "tab.activeForeground": "#09ff00",
+    "tab.activeBackground": "#030003",
+    
+    //Misc
+    "panel.border": "#c61ee8",
+    "merge.border": "#c61ee8",
+
+    //Scrollbar
+    "scrollbarSlider.activeBackground": "#ff0000",
+    "scrollbarSlider.hoverBackground": "#ff0000",
+
+    //Terminal
+    "terminal.foreground": "#2bffff",
+    "terminalCursor.foreground": "#0febff",
+    "terminal.ansiGreen": "#0dff00",
+    "terminal.ansiBrightGreen": "#cf00d6",
+    "terminal.ansiBrightBlue": "#6a00ff"
+
+    
+},
