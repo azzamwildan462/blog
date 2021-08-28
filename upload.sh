@@ -1,7 +1,7 @@
-tanggal=$(date +%d%m%Y)
-nama_commit="Update_$tanggal"
+date=$(date +%d%m%Y)
+commit_msg="Update_$date"
 git add .
-git commit -m "$nama_commit"
+git commit -m "$commit_msg"
 git push origin main
 
 #log_save
