@@ -130,4 +130,9 @@ catkin_make
 
 6. Jika sudah 100% berarti package sukses di-build (tidak ada error)
 
+## Debugging
+
+- VSCode mengindikasikan error tapi sukses di-build? -> [Setup tambahan ROS](Setup_tambahan_ros.md)  
+  ![](image/roserror1.png)
+
 `*nb jika ada error, perhatikan lagi direktori-direktorinya`
