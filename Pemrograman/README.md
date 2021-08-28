@@ -9,3 +9,4 @@ Pakai [VSCode](Vscode1.md) :)
 - Apa sulit belajar pemrograman? -> nggak, asal bisa berlogika dengan baik
 - Saran bahasa pemrograman pertama untuk dipelajari? -> C
 - Cara belajar yang efektif? -> PBL (Project Based Learning)
+- Tips belajar? Belajar sambil dengerin backsound Naruto biar semangat

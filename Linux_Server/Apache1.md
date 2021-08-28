@@ -35,6 +35,7 @@ ifconfig | grep inet
 4. Kunjungi `<alamat_ip>` contoh `192.168.1.11` atau `127.0.0.1`
 5. Tes menggunakan device yang berbeda namun pada jaringan yang sama, dengan cara mengunjungi alamat ip milik web server
 6. Default routing dari Apache ada di `/var/www/html`. Anda bisa menggantinya kemanapun anda mau. [Mengganti default route Apache2](Apache_route1.md)
+7. [Mengaktifkan Https pada Apache2](Apache_https.md)
 
 ## Debugging
 
@@ -47,3 +48,5 @@ Masuk ke direktori 'Shell script' lalu
 ```
 ./Install_apache.sh
 ```
+
+Pada baris 1 saya beri `sudo apt update` agar mendapat apache2 dengan versi terbaru

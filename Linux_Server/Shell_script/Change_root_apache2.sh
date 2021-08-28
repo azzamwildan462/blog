@@ -1,4 +1,4 @@
-while getopts 'd:t:s:h' flag; 
+while getopts 'd:t:s:hn' flag; 
 do
     case "${flag}" in
         h)
@@ -6,11 +6,16 @@ do
             echo "-d            will change the default document root (/var/www/html)"
             echo "-t            define target '-t [target]'"
             echo "-s            define source '-s [source]'"
+            echo "-n            check your apache2 root that used now"
             echo " "
             echo "Usage: "
             echo "sudo ./Change_root_apache2.sh -d /var/www/html/project2"
             echo "               or  "
             echo "sudo ./Change_root_apache2.sh -s /var/www/html/project1 -t /var/www/html/project2"
+            exit 0
+        ;;
+        n)
+            cat /etc/apache2/sites-enabled/000-default.conf | grep DocumentRoot
             exit 0
         ;;
         d) 
