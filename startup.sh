@@ -7,12 +7,12 @@ if [[ $init_system -eq "init" ]]
 then
     # echo "using default init (maybe SysV) system"
     os=$(inxi -S | awk '{for(i=1;i<=NF;i++)if($i=="Distro:")print $(i+1)}')
-    log="Last pull: $date by $who from $os at $time"
+    log="Last pull: $date by $who from $os (free-systemd) at $time"
 else
     # echo "using systemd init system"
     os=$(hostnamectl | grep Operating\ System | awk '{print $3}')
     os_version=$(hostnamectl | grep Operating\ System | awk '{print $4}')
-    log="Last pull: $date by $who from $os-$os_version at $time "
+    log="Last pull: $date by $who from $os-$os_versio (systemd) at $time "
 fi
 
 echo $log >> log.txt
