@@ -6,9 +6,8 @@ init_system=$(ps 1 | grep 1 | awk '{print $5}')
 if [[ $init_system -eq "init" ]]
 then
     # echo "using default init (maybe SysV) system"
-    os=(inxi -S | grep Distro | awk '{print $2}')
+    os=$(inxi -S | awk '{for(i=1;i<=NF;i++)if($i=="Distro:")print $(i+1)}')
     log="Last pull: $date by $who from $os at $time"
-    echo "OS: $os"
 else
     # echo "using systemd init system"
     os=$(hostnamectl | grep Operating\ System | awk '{print $3}')
