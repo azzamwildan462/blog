@@ -15,7 +15,7 @@ then
     # echo "free-systemd"
     os=$(inxi -S | grep Distro | awk '{print $2}')
     log="Last push: $date by $who from $os (free-systemd) at $time"
-    echo "OS: $os"
+    echo "OS:" $os
 else
     # echo "use systemd"
     os=$(hostnamectl | grep Operating\ System | awk '{print $3}')
