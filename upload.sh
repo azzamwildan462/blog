@@ -13,7 +13,7 @@ init_system=$(ps 1 | grep 1 | awk '{print $5}')
 if [[ $init_system -eq "init" ]]
 then
     # echo "using default init (maybe SysV) system"
-    os=(inxi -S | grep Distro | awk '{print $2}')
+    os=$(inxi -S | grep Distro | awk '{print $2}')
     log="Last pull: $date by $who from $os at $time"
 elif [[ $init_system -eq "systemd" ]]
 then
