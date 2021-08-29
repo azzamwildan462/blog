@@ -16,4 +16,6 @@ else
 fi
 
 echo $log >> log.txt
+
+#pull
 git pull origin main

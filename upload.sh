@@ -1,9 +1,3 @@
-date=$(date +%d%m%Y)
-commit_msg="Update_$date"
-git add .
-git commit -m "$commit_msg"
-git push origin main
-
 #log_save
 date=$(date +%d/%m/%Y)
 time=$(date +%H.%M.%S)
@@ -22,4 +16,11 @@ else
     log="Last push: $date by $who from $os-$os_version (systemd) at $time "
 fi
 echo $log >> log.txt
+
+#upload
+date=$(date +%d%m%Y)
+commit_msg="Update_$date"
+git add .
+git commit -m "$commit_msg"
+git push origin main
 
