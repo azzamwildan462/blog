@@ -1,8 +1,14 @@
-Last pull: 28/08/2021 at 20.58.14 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.00.03 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.00.51 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.17.36 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.32.28 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.33.51 by wildan from Ubuntu-20.04.3
-Last push: 28/08/2021 at 21.34.08 by wildan from Ubuntu-20.04.3
-Last pull: 31/08/2021 at 07.05.41 by wildan from Ubuntu-20.04.3
+Last pull: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 20.58.14 
+Last push: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 21.00.03 
+Last push: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 21.00.51 
+Last push: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 21.17.36 
+Last push: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 21.32.28 
+Last push: 28/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 21.33.51 
+Last pull: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 09.40.31
+Last push: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 09.56.34
+Last pull: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 09.56.57
+Last push: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 09.59.15
+Last push: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 09.59.56
+Last push: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 10.01.27
+Last push: 29/08/2021 by wildan from AVL-MXE (free-systemd) at 10.29.45
+Last push: 31/08/2021 by wildan from Ubuntu-20.04.3 (systemd) at 07.08.06
