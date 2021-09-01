@@ -36,4 +36,32 @@ touch model.php view.php controller.php
 ssh username@ip
 ```
 
+9. Instal Apache2, Mysql, dan PHP
+10. Siapkan 1 folder untuk menyimpan SC (terserah diletakkan dimana)
+
+```
+mkdir /var/www/html/proyek1php
+```
+
+10. Kirim Source code PHP dari komputer asli ke komputer virtual
+
+```
+scp [source] [destination]
+```
+
+Contoh
+
+```
+scp ~/proyek/proyek1php/* server@192.168.1.123:/var/www/html/proyek1php/.
+```
+
+11. [Arahkan documentRoot Apache2 ke direktori proyek](Apache_route1.md)
+12. Siapkan Mysql, buka `http://localhost/phpmyadmin/`
+13. Buat database dan tabel sesuai yang telah dibuat di Source Code
+14. Silahkan cek dengan Komputer asli kita, atau HP yang terhubung ke jaringan yang sama
+
+```
+http://[ip_server]/
+```
+
 # Belum selesai :)

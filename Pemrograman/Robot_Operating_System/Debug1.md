@@ -18,7 +18,8 @@
 
 ## Melihat topik yang tersedia
 
-- Gunakan `rostopic list` untuk melihat topik apa saja yag telah di-advertise-kan
+- Gunakan `rostopic list` untuk melihat topik apa saja yang telah di-advertise-kan
+- Atau bisa gunakan tambahan `grep` untuk mencari topik, `rostopic list | grep [nama_topik]`
 - Gunakan `rostopic echo [nama_topik]` untuk melihat isi topik
 - Topik tidak tersedia? -> lihat SC pada bagian advertise
 - Topik tersedia tapi isi tidak ada? -> lihat pada bagian ros::publish.publish() perhatikan juga tipe datanya harus sesuai dengan apa yang telah di-include di header
