@@ -1,3 +1,4 @@
+#log save
 date=$(date +%d/%m/%Y)
 time=$(date +%H.%M.%S)
 who=$(whoami)
