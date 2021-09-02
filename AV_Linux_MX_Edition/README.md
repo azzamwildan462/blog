@@ -41,3 +41,7 @@ Untuk mulai menggunakan dengan integrasi Hardware seperti gitar atau keyboard at
 6. Mulai mencoba [MIDI](MIDI1.md) keyboard
 7. Mencoba integrasi dengan Gitar atau alat musik lainnya
 8. Membuat proyek Musik
+
+#### Tambahan
+
+1. [Record video dengan OBS](OBS1.md)

@@ -1,6 +1,6 @@
 # JACK
 
-JACK adalah sebuah aplikasi atau package yang banyak digunakan oleh Audiophile. JACK punya beberapa Interface seperti Cadence, Carla, dan QjackCtl. Pada pembahasan kali ini saya akan membahas tentang QjackCtl.
+JACK adalah sebuah sound server yang banyak digunakan oleh Audiophile. JACK punya beberapa Interface seperti Cadence, Carla, dan QjackCtl. Pada pembahasan kali ini saya akan membahas tentang QjackCtl.
 
 # QjackCtl
 

@@ -1,5 +1,10 @@
 # Penggunaan MIDI keyboard dengan AV Linux
 
+## Hasil
+
+[Bermain lagu Omens of love - Tsquare dengan midi keyboard Casio CTK-7000](https://youtu.be/3adRNnnQJgw)  
+Videonya burem wkwkkwkw lupa belum setting kualitas video
+
 ## Alat dan Bahan
 
 1. Keyboard CTK-7000 sebagai MIDI Controller (Terserah mau pake apa)
