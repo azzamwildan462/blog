@@ -17,5 +17,8 @@ fi
 
 echo $log >> log.txt
 
+#prepare, save old change to "temp"
+git add . 
+git commit -m "main"
 #pull
 git pull origin main
