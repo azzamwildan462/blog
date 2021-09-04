@@ -12,7 +12,8 @@ Silahkan lihat [disini](https://youtu.be/3adRNnnQJgw)
 
 1. Siapkan [MIDI dengan keyboard](MIDI1.md)
 2. Siapkan Youtube
-3. Routing Youtube ke Ardour (Agar bisa di-record dan di-mixer dengan mudah) | Tutorial? -> [disini](Route_multi_app.md)
+3. Routing Youtube ke Ardour (Agar bisa di-record dan di-mixer dengan mudah) | Tutorial? -> [disini](Route_multi_app.md)  
+   ![](image/qjack-route6.png)
 4. Ganti instrument MIDI anda (terserah mau pake apa), saya pake Odin2
 
 ```
