@@ -1,4 +1,4 @@
-while getopts 'd:t:s:hn' flag; 
+while getopts 'd:t:s:hna:' flag; 
 do
     case "${flag}" in
         h)
@@ -14,8 +14,12 @@ do
             echo "sudo ./Change_root_apache2.sh -s /var/www/html/project1 -t /var/www/html/project2"
             exit 0
         ;;
+	a)
+	    source=$(cat /etc/apache2/sites-enabled/000-default.conf | grep -w DocumentRoot | awk '{print $2}')
+	    target="${OPTARG}"
+	;;
         n)
-            cat /etc/apache2/sites-enabled/000-default.conf | grep DocumentRoot
+            cat /etc/apache2/sites-enabled/000-default.conf | grep -w DocumentRoot | awk '{print $2}'
             exit 0
         ;;
         d) 

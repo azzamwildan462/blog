@@ -12,7 +12,7 @@ else
     # echo "using systemd"
     os=$(hostnamectl | grep Operating\ System | awk '{print $3}')
     os_version=$(hostnamectl | grep Operating\ System | awk '{print $4}')
-    log="Last pull: $date by $who from $os-$os_versio (systemd) at $time "
+    log="Last pull: $date by $who from $os-$os_version (systemd) at $time "
 fi
 
 echo $log >> log.txt
