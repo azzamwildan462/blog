@@ -11,3 +11,4 @@ Saya memakai distro [Ubuntu Server](https://ubuntu.com/download/server), [Apache
 
 1. Menentukan spek untuk Server
 2. Tambahan keamanan untuk Server
+3. Belajar [Docker](../Docker/README.md)
