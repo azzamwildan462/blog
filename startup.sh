@@ -1,3 +1,4 @@
+#log save
 date=$(date +%d/%m/%Y)
 time=$(date +%H.%M.%S)
 who=$(whoami)
@@ -17,5 +18,8 @@ fi
 
 echo $log >> log.txt
 
+#prepare, save old change to "temp"
+git add . 
+git commit -m "main"
 #pull
 git pull origin main
