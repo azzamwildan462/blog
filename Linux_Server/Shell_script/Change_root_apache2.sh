@@ -7,11 +7,14 @@ do
             echo "-t            define target '-t [target]'"
             echo "-s            define source '-s [source]'"
             echo "-n            check your apache2 root that used now"
+            echo "-a            auto, just insert target argument. ex: -a [target]"
             echo " "
             echo "Usage: "
             echo "sudo ./Change_root_apache2.sh -d /var/www/html/project2"
             echo "               or  "
             echo "sudo ./Change_root_apache2.sh -s /var/www/html/project1 -t /var/www/html/project2"
+            echo "               or  "
+            echo "sudo ./Change_root_apache2.sh -a /var/www/html/project90"
             exit 0
         ;;
 	a)
@@ -39,7 +42,13 @@ do
     esac
 done
 
-sudo sed -i "s#${source}#${target}#g" /etc/apache2/apache2.conf
-sudo sed -i "s#${source}#${target}#g" /etc/apache2/sites-enabled/000-default.conf
+if [ -z $source ] || [ -z $target ]
+then
+    echo "kosong"
+    exit
+else
+    sudo sed -i "s#${source}#${target}#g" /etc/apache2/apache2.conf
+    sudo sed -i "s#${source}#${target}#g" /etc/apache2/sites-enabled/000-default.conf
 
-sudo service apache2 restart
+    sudo service apache2 restart
+fi

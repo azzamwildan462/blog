@@ -5,10 +5,10 @@ Saya memakai distro [Ubuntu Server](https://ubuntu.com/download/server), [Apache
 ## Cara belajar:
 
 1. Buat proyek
-2. Deploy ke server (VPS, tapi bayar :)) | alternative? -> deploy pake OS yang berada pada Mesin Virtual (Saya menggunakan Virtualbox)
+2. Deploy ke server (VPS, tapi bayar :)) | alternative? -> deploy pake OS yang berada pada Mesin Virtual (Saya menggunakan Virtualbox) dan bermain di jaringan lokal :)
 
 ## Tambahan penting
 
 1. Menentukan spek untuk Server
 2. Tambahan keamanan untuk Server
-3. Belajar [Docker](../Docker/README.md)
+3. Belajar [Docker](Docker/README.md)

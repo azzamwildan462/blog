@@ -20,13 +20,8 @@ cd PHP
 mkdir proyek1; cd proyek1
 ```
 
-3. Buat file PHP
-
-```
-touch model.php view.php controller.php
-```
-
-4. Buat [proyek PHP](../Pemrograman/Web/PHP1.md)
+3. Pergi ke [contoh proyek](../Pemrograman/Web/Crawler.md)
+4. Copy-Paste Source Code proyek [web crawler](https://github.com/ramamimu/FP-LBE-NCC) ke
 5. Instal Virtualbox dan Instal OS server disana
 6. Install ssh agar bisa di-remote melalui mesin asli (Kalau belum terinstal)
 7. Cek username dan alamat IP server dari Mesin disana (Terminal milik server)
@@ -43,7 +38,7 @@ ssh username@ip
 mkdir /var/www/html/proyek1php
 ```
 
-10. Kirim Source code PHP dari komputer asli ke komputer virtual
+10. Kirim Source code proyek dari komputer asli ke komputer virtual
 
 ```
 scp [source] [destination]
@@ -58,10 +53,8 @@ scp ~/proyek/proyek1php/* server@192.168.1.123:/var/www/html/proyek1php/.
 11. [Arahkan documentRoot Apache2 ke direktori proyek](Apache_route1.md)
 12. Siapkan Mysql, buka `http://localhost/phpmyadmin/`
 13. Buat database dan tabel sesuai yang telah dibuat di Source Code
-14. Silahkan cek dengan Komputer asli kita, atau HP yang terhubung ke jaringan yang sama
+14. Silahkan cek dengan Komputer asli kita, atau apapun yang terhubung ke jaringan yang sama
 
 ```
 http://[ip_server]/
 ```
-
-# Belum selesai :)

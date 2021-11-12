@@ -9,7 +9,7 @@
 
 - Untuk mengaktifkan HTTPS perlu SSL-Certificate
 - Sertifikat SSL bisa didapatkan secara gratis (Let's Encrypt) atau membuat sendiri (Tidak diakui oleh web browser)
-- Memblokade HTTP (80) dan memaksa semua request untuk melewati HTTPS (443)
+- Memblokade HTTP (80) dan memaksa semua request untuk melewati port 443 (HTTPS)
 
 ## Alat dan Bahan
 

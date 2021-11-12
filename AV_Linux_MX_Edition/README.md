@@ -39,8 +39,8 @@ Untuk mulai menggunakan dengan integrasi Hardware seperti gitar atau keyboard at
 4. Bermain efek plugin pada [Calf plugin pack](Efek_jack2.md)
 5. Belajar [Ardour](Ardour1.md)
 6. Mulai mencoba [MIDI](MIDI1.md) keyboard
-7. Mencoba integrasi dengan Gitar atau alat musik lainnya
-8. Membuat proyek Musik
+7. Mencoba [integrasi dengan Gitar](Gitar1.md) atau alat musik lainnya
+8. Membuat [proyek Musik](Proyek1.md)
 
 #### Tambahan
 
