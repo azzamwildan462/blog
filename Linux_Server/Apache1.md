@@ -23,7 +23,7 @@ sudo service apache2 status
 Untuk start
 
 ```
-sudo serive apache2 start
+sudo service apache2 start
 ```
 
 3. Cek IP Address WLAN local

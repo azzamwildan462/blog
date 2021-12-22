@@ -22,5 +22,6 @@ date=$(date +%d%m%Y)
 commit_msg="Update_$date"
 git add .
 git commit -m "$commit_msg"
-git push origin main
+# git push origin main
+git push remote_pakai_token main
 

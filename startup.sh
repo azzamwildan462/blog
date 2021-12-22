@@ -22,4 +22,5 @@ echo $log >> log.txt
 git add . 
 git commit -m "main"
 #pull
-git pull origin main
+# git pull origin main
+git pull remote_pakai_token main
